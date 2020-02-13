@@ -1,0 +1,36 @@
+.container{
+    margin-top: 100px;
+}
+
+.container h2{
+    background: orange;
+    color: #fff;
+    width: 150px;
+    font-size: 24px;
+    padding: 5px;
+    height: 42px;
+}
+.container h2:after{
+    content: '';
+    border-top: 41px solid orange;
+    border-right: 100px solid transparent;
+    position: relative;
+    left: 57px;
+    top: 38px;
+}
+.newarrival{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-size: 17px;
+    color: orange;
+}
+h3{
+    color: orange;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}

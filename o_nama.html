@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<title>Computer Master</title>
+<style>
+      *{
+   margin:0px;
+   padding:0px;
+    }
+body, html{
+         width:100%;
+   height:100%; }
+  #cm-popup{
+         display:none;
+   box-shadow: 0 0 10px #888888;
+   position:fixed;
+   left:50%;
+   transform:translateX(-50%);
+         width:50%;
+   height:200px;
+   }
+ .cm-btn{
+         border:none;
+         background:#405080;
+         color:white;
+   border-radius:2px;
+  }
+
+</style>
+</head>
+<body>
+ 
+ 
+ 
+    <!-- Click Me button set up -->
+  <button
+          class="cm-btn"
+          
+          onclick="document.getElementById('cm-popup').style.display='block'">
+    
+     Click Me!!!
+    
+  </button>
+ 
+ 
+ <!-- Pop up window -->
+ <div id="cm-popup">
+      <!-- header of the pop up window -->
+  <h2
+     style="width:98%;color:white;text-align:center;padding:1%;background:#405080;">
+     I am poped up
+  </h2>
+  
+  <div style="padding:2%;overflow:hidden;">
+
+  Click hide to hide this window !!
+           
+   <!-- Hide button -->
+   <button
+          class="cm-btn"
+       style="position:absolute;bottom:5%;left:2%;width:80px; height:40px;"
+       onclick="document.getElementById('cm-popup').style.display='none'">
+       Hide
+      </button>
+  </div>
+ </div>
+
+</body>
+</html>
